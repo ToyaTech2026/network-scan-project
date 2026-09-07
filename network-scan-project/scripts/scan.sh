@@ -11,12 +11,12 @@ TARGET_RANGE="192.168.1.0/24"
 
 # ---- 1. Host discovery: find live devices on the network ----
 echo "[*] Discovering live hosts on $TARGET_RANGE ..."
-nmap -sn "$TARGET_RANGE" -oN ../reports/raw-host-discovery.txt
+nmap -sn "$TARGET_RANGE" -oN reports/raw-host-discovery.txt
 
 # ---- 2. Port scan on discovered hosts (edit target IP after step 1) ----
-# TARGET_HOST="192.168.1.10"
-# echo "[*] Scanning ports on $TARGET_HOST ..."
-# nmap -sV -O "$TARGET_HOST" -oN ../reports/raw-portscan-$TARGET_HOST.txt
+ TARGET_HOST="192.168.1.124"
+ echo "[*] Scanning ports on $TARGET_HOST ..."
+ nmap -sV -O "$TARGET_HOST" -oN reports/raw-portscan-$TARGET_HOST.txt
 
 # ---- 3. (Optional) Basic vulnerability script scan ----
 # nmap --script vuln "$TARGET_HOST" -oN ../reports/raw-vuln-$TARGET_HOST.txt

@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Mon Sep  7 11:36:24 2026 as: /usr/lib/nmap/nmap -sV -O -oN reports/raw-portscan-192.168.1.124.txt 192.168.1.124
+Nmap scan report for SC07-WX_4C5D06.lan (192.168.1.124)
+Host is up (0.00016s latency).
+All 1000 scanned ports on SC07-WX_4C5D06.lan (192.168.1.124) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DFL-700 firewall (89%), HP Officejet Pro 8500 printer (89%), IBM i 7.4 (89%), ReactOS 0.3.7 (89%), Sanyo PLC-XU88 digital video projector (89%), Sonus GSX9000 VoIP proxy (88%), Asus WL-500gP wireless broadband router (88%), Microsoft Windows 2000 (88%), Microsoft Windows Server 2003 Enterprise Edition SP2 (88%), Microsoft Windows Server 2003 SP2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  7 11:37:18 2026 -- 1 IP address (1 host up) scanned in 53.99 seconds
