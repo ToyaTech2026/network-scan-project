@@ -1,0 +1,6 @@
+# Raw scan output (may contain sensitive local network info - review before committing)
+reports/raw-*.txt
+
+# OS/editor junk
+.DS_Store
+*.swp
